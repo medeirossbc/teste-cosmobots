@@ -54,8 +54,7 @@ secondChallenge.append(buttonQ2);
 
 function juntarDados() {
   divStringArray.innerHTML = "";
-  let arrayStringToString = arrayString.toString();
-  let result = arrayStringToString.replace(/,/g, ";");
+  let result = arrayString.toString().replace(/,/g, ";");
   divStringArray.append(result);
   console.log(result);
   alert(result);
