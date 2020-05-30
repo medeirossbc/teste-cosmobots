@@ -1,0 +1,22 @@
+<?php
+    /* Inversão */
+    $frase = "Teste da Cosmo";
+    echo $frase . "<br>";
+    $explode = (explode(" ", $frase));
+    $reverso = array_reverse($explode);
+    echo implode(' ', $reverso);
+?>
+
+<?php
+    /* Junção */
+    $separado = array("Primeiro", "Segundo", "Texto");
+    echo implode('; ', $separado);
+?>
+
+<?php
+    /* Ordenação */
+    $ordem = array(1,3,5,4,1,9,7,8,9);
+    sort($ordem);
+    $result = $ordem;
+    print_r($ordem);
+?>
